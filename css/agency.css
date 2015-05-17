@@ -109,6 +109,10 @@ iframe {
     background-color: #f7f7f7;
 }
 
+.bg-bottom-gray {
+    background-color: #808080;
+}
+
 .bg-darkest-gray {
     background-color: #222;
 }
@@ -367,12 +371,12 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 section h2.section-heading {
     margin-top: 0;
-    padding-bottom: 70px;
+    padding-bottom: 25px;
     font-size: 40px;
     color: #EF6C00;
 }
@@ -388,7 +392,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 100px 0;
     }
 }
 
@@ -792,6 +796,7 @@ footer span.copyright {
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
+    color: #FFF;
 }
 
 footer ul.quicklinks {

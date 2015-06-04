@@ -18,10 +18,20 @@ body {
 }
 
 .img-responsivez {
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     height: 400px;
 }
 
+.img-cover {
+    height: 360px;
+    width: 360px;
+}
+
+.flow-small {
+    width: 700px;
+    height: auto;
+}
 .man-icon {
     width: 50px;
 }
@@ -124,6 +134,9 @@ iframe {
     font-weight: 700;
     color: #fff;
     background-color: #FF9800;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .btn-primary:hover,

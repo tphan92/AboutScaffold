@@ -670,6 +670,17 @@ section h3.section-subheading {
     }
 }
 
+.quick-link {
+    font-size: 12px;
+    font-style: normal;
+}
+
+.quick-link:hover {
+    color: #ffffff;
+    font-style: normal;
+    text-decoration: none;
+}
+
 @media(min-width:1200px) {
     .timeline>li {
         min-height: 170px;
